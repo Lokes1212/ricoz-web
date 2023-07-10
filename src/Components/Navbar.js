@@ -20,6 +20,9 @@ export default function Navbar() {
         <li class="nav-item">
           <a class="nav-link" href="/">Services</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">Services</a>
+        </li>
         {/* <li class="nav-item">
           <a class="nav-link disabled">Disabled</a>
         </li> */}
