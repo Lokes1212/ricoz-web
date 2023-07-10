@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Slider from "./Components/Slider";
+import Cards from "./Components/Cards";
+// import Cards from "./Components/Cards";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+  <div>
+   <Navbar/>
+   </div >
+   <Slider/>
+   
+   <Cards/>
+      
+    {/* <div> 
+      <div class="dropdown" >
+        <button   
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <button class="dropdown-item" type="button">
+              Dropdown item
+            </button>
+          </li>
+          <li>
+            <button class="dropdown-item" type="button">
+              Dropdown item
+            </button>
+          </li>
+          <li>
+            <button class="dropdown-item" type="button">
+              Dropdown item
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div> */}
+    
+    </>
   );
-}
+};
 
 export default App;
