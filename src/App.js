@@ -1,20 +1,20 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import Slider from "./Components/Slider";
-import Cards from "./Components/Cards";
+import Navbar from "./Components/Navbar/Navbar";
+import Slider from "./Components/Slider/Slider";
+import Cards from "./Components/Cards/Cards";
 // import Cards from "./Components/Cards";
 
 const App = () => {
   return (
     <>
-  <div>
-   <Navbar/>
-   </div >
-   <Slider/>
-   
-   <Cards/>
-      
-    {/* <div> 
+      <div>
+        <Navbar />
+      </div>
+      <Slider />
+
+      <Cards />
+
+      {/* <div> 
       <div class="dropdown" >
         <button   
           class="btn btn-primary dropdown-toggle"
@@ -43,7 +43,6 @@ const App = () => {
         </ul>
       </div>
     </div> */}
-    
     </>
   );
 };

@@ -1,0 +1,19 @@
+.cards-item {
+  border: 2px solid red;
+  width: 227px;
+  margin: 30px 54px;
+  padding: 12px 15px;
+  float: left;
+  border-radius: 12px;
+  background-color: cadetblue;
+}
+@media only screen and (max-width: 412px) {
+  .cards-item {
+    border: 2pc solid green;
+  }
+}
+@media only screen and (max-width: 812px) {
+  .cards-item {
+    border: 2px solid yellow;
+  }
+}
