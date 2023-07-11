@@ -20,12 +20,14 @@ export default function Navbar() {
         <div class="right">
       <li class="right-nav"><a href="/" >blog</a></li>
       <li class="right-nav"><a href="/" >Contact</a></li>
-      </div>
-      {/* <div class="bt">
+      <button>free Qoute</button>
+      
 
-<button>free Qoute</button>
-</div>
-      */}
+      </div>
+     
+        
+
+     
       </ul>
       
      

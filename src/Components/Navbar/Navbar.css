@@ -1,31 +1,35 @@
 .navbar li{
   float: left;
   list-style: none;
-  margin: 12px;
+  margin: 2px 12px;
   
  
   
 }
 .right {
-  margin-left: 1103px;
+  margin-left: 1044px;
 }
 .right-nav {
  margin-left: 12px;
  float: right;
-
-  
-  
-  
   
 }
 .navbar{
   
-  border: 2px solid red;
-  
+  padding: 6px;
+  margin-bottom: 1px;
 }
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+
 .navbar ul{
   overflow: auto;
 }
-.bt{
-  float: right;
+
+.navbar button{
+  border-radius: 9px;
 }
+
