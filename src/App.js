@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Slider from "./Components/Slider/Slider";
 import Cards from "./Components/Cards/Cards";
+import TWI from "./Components/Text with image/TWI";
 // import Cards from "./Components/Cards";
 
 const App = () => {
@@ -13,7 +14,9 @@ const App = () => {
       <Slider />
 
       <Cards />
-
+      <div>
+      <TWI/>
+      </div>
       {/* <div> 
       <div class="dropdown" >
         <button   

@@ -21,7 +21,7 @@ export default function Slider() {
             />
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <img src="https://pbs.twimg.com/ext_tw_video_thumb/1644061537936592900/pu/img/4qnya8Jz7LUm-zKS?format=jpg&name=large" class="d-block w-100" alt="..." />
           </div>
         </div>
         <button

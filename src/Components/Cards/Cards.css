@@ -5,8 +5,11 @@
   padding: 12px 15px;
   float: left;
   border-radius: 12px;
-  background-color: cadetblue;
+  background-color:#b5ebff;
+  
 }
+
+
 @media only screen and (max-width: 412px) {
   .cards-item {
     border: 2pc solid green;

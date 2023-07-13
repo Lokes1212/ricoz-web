@@ -1,0 +1,40 @@
+
+.pic img{
+     width: 500px;
+     height: 450px;
+     margin-left: 110px;
+     margin-top: 12px;
+     float: left;
+      border-radius: 12px; 
+    
+      background-color: cornflowerblue; 
+     
+
+ }
+.pic{
+     margin: 12px;
+     padding: 12px;
+     
+}
+.content {
+   
+     float: right;
+     width: 555px;
+     height: 200px;
+     margin-right: 75px;
+     margin-top: 23px;
+     
+}
+.content p{
+     background-color: aqua;
+}
+
+.board{
+     background-color: aqua;
+     /* border: 2px solid black; */
+     width: 100%;
+     height: auto;
+     float: left;
+     margin: 12px auto;
+     padding: 15px;
+}
