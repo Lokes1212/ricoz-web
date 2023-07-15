@@ -1,11 +1,13 @@
 .carousel-inner {
-  height: 550px;
+  height: 580px;
 }
-@media only screen and (max-width: 412px) {
-  .cards-item {
-    border: 2pc solid green;
+@media only screen and (max-width: 430px) {
+  
+    .carousel-inner {
+      height: 280px;
+    }
   }
-}
+
 @media only screen and (max-width: 812px) {
   .cards-item {
     border: 2px solid yellow;

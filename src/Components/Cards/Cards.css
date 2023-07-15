@@ -1,5 +1,5 @@
 .cards-item {
-  border: 2px solid red;
+  border: 2px solid black;
   width: 227px;
   margin: 30px 54px;
   padding: 12px 15px;
@@ -10,13 +10,26 @@
 }
 
 
-@media only screen and (max-width: 412px) {
-  .cards-item {
-    border: 2pc solid green;
+@media only screen and (max-width: 430px) {
+  .cards-item{
+    width: 164px;;
+    height: 266px;
+    float: left;
+    border: 2px solid black;
+    margin: 5px 24px;
+    padding: 0% 5px;
+    
+    
+
+
+    
+    
+  
+
   }
-}
+  
+  }
+
 @media only screen and (max-width: 812px) {
-  .cards-item {
-    border: 2px solid yellow;
-  }
+  
 }

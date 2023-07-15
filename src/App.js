@@ -3,7 +3,12 @@ import Navbar from "./Components/Navbar/Navbar";
 import Slider from "./Components/Slider/Slider";
 import Cards from "./Components/Cards/Cards";
 import TWI from "./Components/Text with image/TWI";
-// import Cards from "./Components/Cards";
+import Sub from "./Subscribe/Sub";
+import Footer from "./Components/Footer/Footer";
+
+
+
+
 
 const App = () => {
   return (
@@ -14,9 +19,14 @@ const App = () => {
       <Slider />
 
       <Cards />
-      <div>
+      
       <TWI/>
-      </div>
+      <Sub/>
+      <Footer/>
+      
+      
+
+      
       {/* <div> 
       <div class="dropdown" >
         <button   

@@ -25,9 +25,9 @@
      margin-top: 23px;
      
 }
-.content p{
+/* .content p{
      background-color: aqua;
-}
+} */
 
 .board{
      background-color: aqua;
@@ -37,4 +37,32 @@
      float: left;
      margin: 12px auto;
      padding: 15px;
+}
+@media only screen and (max-width: 812px) {
+ 
+.pic img{
+     width: 173px;
+    height: 238px;
+    margin-top: -13px;
+    margin-left: -25px;
+
+}
+.content{
+     width: 216px;
+    height: 200px;
+    margin-top: -55px;
+    margin-right: 1px;
+    padding: 1px 5px;
+
+}
+.board{
+     background-color: aqua;
+     /* border: 2px solid black; */
+     width: 100%;
+     height: auto;
+     float: left;
+     margin: 12px auto;
+     padding: 15px;
+
+}
 }

@@ -12,10 +12,27 @@ export default function Cards() {
         <div class="cards-item">
           <h4 class="cards-heading">heading</h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Reprehenderit nulla doloribus fugiat quisquam possimus odio
-            eligendi, et cupiditate minima sapiente temporibus, laudantium
-            commodi modi, nam sed nihil cum? Minus, in.{" "}
+            eligendi, et cupiditate  cum? Minus, in.{" "}
+          </p>
+        </div>
+
+        <div class="cards-item">
+          <h4 class="cards-heading">heading</h4>
+          <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit nulla doloribus fugiat quisquam possimus odio
+            eligendi, et cupiditate  cum? Minus, in.{" "}
+          </p>
+        </div>
+
+        <div class="cards-item">
+          <h4 class="cards-heading">heading</h4>
+          <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit nulla doloribus fugiat quisquam possimus odio
+            eligendi, et cupiditate  cum? Minus, in.{" "}
           </p>
         </div>
 
@@ -24,28 +41,7 @@ export default function Cards() {
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Reprehenderit nulla doloribus fugiat quisquam possimus odio
-            eligendi, et cupiditate minima sapiente temporibus, laudantium
-            commodi modi, nam sed nihil cum? Minus, in.{" "}
-          </p>
-        </div>
-
-        <div class="cards-item">
-          <h4 class="cards-heading">heading</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit nulla doloribus fugiat quisquam possimus odio
-            eligendi, et cupiditate minima sapiente temporibus, laudantium
-            commodi modi, nam sed nihil cum? Minus, in.{" "}
-          </p>
-        </div>
-
-        <div class="cards-item">
-          <h4 class="cards-heading">heading</h4>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Reprehenderit nulla doloribus fugiat quisquam possimus odio
-            eligendi, et cupiditate minima sapiente temporibus, laudantium
-            commodi modi, nam sed nihil cum? Minus, in.{" "}
+            eligendi, et cupiditate  cum? Minus, in.{" "}
           </p>
         </div>
       </div>
